@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.head .row {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.nav-link {
+    text-align: center;
+}
+input{
+    border-width: 1px;
+    opacity: 0.7;
+}
+.btn{
+    width: 100px;
+}
+
+#myDIV {
+    margin-top: 3%;
+}
+
+.signin {
+    text-align: center;
+    border-radius: 20px;
+    background-color: #000000;
+}
+
+.same-line {
+    gap: 50%;
+}
+.text-end{
+    text-decoration: none;
+    color: #000000;
+}
+.blue{
+    color: blue;
+    font-size: 15px;
+}
+.left-paragraph {
+    float: left;
+    text-decoration: none;
+}
+
+.right-paragraph {
+    float: right;
+    text-decoration: none;
+}
+
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+.ic2 {
+    margin-top: 30px;
+}
+
+.input {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+
+}
+.label{
+    padding: 2.5px;
+    border-radius: 20px;
+    width: 100px;
+    transform: translate(0px,-3px);
+}
+label{
+    border-radius: 0px;
+    width: 50px;
+}
+
+.placeholder {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+}
+
+.input:focus~.placeholder,
+.input:not(:placeholder-shown)~.placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+
+.input:focus~.placeholder {
+    color: #000000;
+}
+
+.submit {
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.submit:active {
+    background-color: #06b;
+}
